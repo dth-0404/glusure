@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+        href="tel:02873070789">
+        <div id="calltrap-ico"></div>
+    </a>
+    <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+    <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content form-discount">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-img pr-0">
+                        <img src="img/banner-glusure-diabetes.jpg" class="img-modal" alt="khuyen-mai-glusure"
+                            title="Khuyến mãi Glusure">
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-form d-flex align-items-center pl-0 tablet-style">
+                        <form action="" method="post">
+                            <div class="modal-header">
+                                <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                                <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3 pt-4 pb-4">
+                                <div class="md-form mb-3 text-left">
+                                    <label>Họ tên</label>
+                                    <input type="text" name="name" class="form-control validate" autocomplete="off"
+                                        required>
+                                </div>
+                                <div class="md-form mb-3 text-left">
+                                    <label>Số điện thoại</label>
+                                    <input type="text" name="phone" class="form-control validate only_number"
+                                        autocomplete="off" required maxlength="10" onkeypress="validate(event)">
+                                    <center>
+                                        <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                            ngay</button>
+                                    </center>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row justify-content-center content-header">
+                <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="logo logo-mobile">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Glusure" title="Glusure">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="switchboard">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Tổng đài tư vấn:</span> <a href="tel:02873070789">028 7307 0789</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="form-search">
+                        <form action="" method="GET" role="form">
+                            <div class="style-input">
+                                <input class="search-ajax" type="text" placeholder="Nhập từ khóa tìm kiếm" required="">
+                            </div>
+                            <button type="submit" class="style-submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-desktop">
+                <div class="navbar d-flex align-items-center justify-content-between">
+                    <div class="logo d-block d-sm-block d-md-none">
+                        <a href="index.html">
+                            <img src="img/logo-footer.png" alt="Glusure" title="Glusure">
+                        </a>
+                    </div>
+                    <div class="switchboard d-block d-sm-block d-md-none phone-mobile">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:02873070789">028 7307 0789</a>
+                    </div>
+                    <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+
+                    <nav class="navbar-content">
+                        <div class="navbar-close"><i class="fas fa-times"></i></div>
+                        <ul>
+                            <li><a href="index.html">TRANG CHỦ</a></li>
+                            <li><a href="blog-1.html">ĐÁI THÁO ĐƯỜNG</a></li>
+                            <li><a href="blog-2.html">ĐÁI THÁO ĐƯỜNG THAI KỲ</a></li>
+                            <li><a href="product.html">GLUSURE DIABETES</a></li>
+                            <li><a href="question.html">CÂU HỎI</a></li>
+                            <li><a href="contact.html">LIÊN HỆ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-9 col-xl-9">
+                    <div class="question">
+                        <div class="title-question">
+                            <img src="img/bonus.png" id="bonus"> CÂU HỎI THƯỜNG GẶP VỀ CĂN BỆNH ĐÁI THÁO ĐƯỜNG
+                        </div>
+                        <ul class="list-ques style-question">
+                            <li data-ques="box-1">
+                                <p class="text-question-2">Năm nay tôi 63 tuổi và đã sống chung với căn bệnh đái tháo
+                                    đường gần 8 năm rồi. Mặc
+                                    dù tôi đã kiêng cữ đủ loại thực phẩm với hy vọng sẽ khỏi bệnh nhưng giữa buổi tôi
+                                    thường hay bị đói và mệt mỏi. Làm sao để tôi chấm dứt tình trạng này ngay?<br><b>(Cô
+                                        Trần Tuyết Hồng, Bình Thạnh)</b></p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques answer-question" id="box-1" style="display: none;" data-status="none">
+                                <p>Chào cô Hồng. Những triệu chứng trên cho thấy cô đang bị mất cân bằng dinh dưỡng rồi
+                                    cô ạ! Có lẽ cô đã hiểu sai về khái niệm ăn kiêng, ăn kiêng đúng cách chính là đảm
+                                    bảo đầy đủ dinh dưỡng nhưng đúng số lượng chứ không phải nhịn ăn tất cả thực phẩm.
+                                    Đặc biệt là với bệnh nhân bị đái tháo đường thì chế độ dinh dưỡng càng được chú
+                                    trọng và theo hướng dẫn của bác sĩ. Để đảm bảo sức khỏe không bị ảnh hưởng, cô có
+                                    thể tham khảo cách chọn thực phẩm, thông qua chỉ số đường huyết (GI) và thực đơn mà
+                                    Glusure Diabetes đã chia sẻ. Chúc cô có sức khỏe tốt!</p>
+                            </div>
+                            <li data-ques="box-2">
+                                <p class="text-question-2">Tôi 43 tuổi, tôi phát hiện mình mắc bệnh đái tháo đường từ 3
+                                    năm trước. Bác sĩ khuyên
+                                    tôi nên giảm cân bằng cách ăn kiêng và sau đó tôi cố gắng không ăn quá số lượng.
+                                    Nhưng tình trạng không khá hơn, thay vào đó tôi hay bị chóng mặt do hạ đường huyết.
+                                    Có phải tôi đã làm sai phương pháp?<br><b>(Lê Bích Thủy, Q.9)</b></p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques answer-question" id="box-2" style="display: none;" data-status="none">
+                                <p>Chào cô Thủy. Cô không làm sai phương pháp đâu ạ nhưng cô chưa hiểu rõ về cách ăn
+                                    kiêng. Bật mí cho cô một giải pháp, đó chính là cô hãy chia nhỏ bữa ăn của mình
+                                    thành nhiều bữa nhỏ, 5 bữa nhỏ thay vì 3 bữa chính. Việc giãn cách thời gian đều đặn
+                                    để ăn uống như thế này sẽ làm cô không xuất hiện cảm giác đói và không ảnh hưởng đến
+                                    đường huyết. Cô có thể dựa vào chỉ số đường huyết (GI) để chọn lựa đúng thực phẩm.
+                                    Và Glusure chính là sản phẩm dinh dưỡng giúp ích cho người bị đái tháo đường như cô
+                                    đó ạ! Cô có thể dùng nó để thay thế bữa ăn trong ngày, từ đó mà cơ thể sẽ khỏe khoắn
+                                    hơn, tránh tình trạng mệt mỏi kéo dài gây kiệt sức. Chúc cô kiểm soát tốt căn bệnh
+                                    này!</p>
+                            </div>
+                            <li data-ques="box-3">
+                                <p class="text-question-2">Tôi năm nay 54 tuổi, mắc bệnh đái tháo đường được 6 năm, hiện
+                                    đang làm công nhân
+                                    trong nhà máy cả ngày. Mỗi bữa ăn sẽ cố định lúc 12 giờ trưa và 17 giờ chiều. Tôi
+                                    thường bị thèm ăn giữa giờ nhưng công việc không cho phép tôi ăn vặt. Tôi phải làm
+                                    sao đây?<br><b>(Lê Phước Hiệp, Q.Bình Tân)</b></p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques answer-question" id="box-3" data-status="block">
+                                <p style="font-weight: 400;">Chào bác Hiệp. Qua câu chuyện mà bác chia sẻ thì việc giãn
+                                    cách các bữa ăn như vậy với người đang mắc bệnh đái tháo đường quả là một “thử
+                                    thách”. Thực tế cho thấy các bữa ăn ở doanh nghiệp sẽ không thể nào đáp ứng đủ dinh
+                                    dưỡng cho người mắc phải căn bệnh này. Những sản phẩm như Glusure ra đời chính là
+                                    một giải pháp dành cho bác đó ạ! Sản phẩm này đã được phát minh, nghiên cứu, đáp ứng
+                                    đủ yêu cầu từ Hiệp Hội Đái Tháo Đường rồi mới đưa ra thị trường. Để giảm cảm giác
+                                    thèm ăn và mệt mỏi, bác hãy uống một ly Glusure Diabetes sau bữa ăn hàng ngày. Một
+                                    lựa chọn hoàn hảo cho những ai dù đang làm ở doanh nghiệp nhưng vẫn muốn bổ sung đầy
+                                    đủ dinh dưỡng giúp ổn định đường huyết. Chúc bác sức khỏe!
+                                </p>
+                            </div>
+                            <li data-ques="box-4">
+                                <p class="text-question-2">Theo lời bác sĩ, tôi đã xây dựng cho mình chế độ dinh dưỡng
+                                    hợp lý, nhưng chỉ được 4
+                                    ngày, thời gian sau tôi không thể chịu đựng nổi. Cảm giác lúc nào cũng thèm ăn khiến
+                                    tôi bỏ đi quy tắc và ăn nhiều hơn trước. Làm sao bây giờ?<br><b>(Nguyễn Bích Ngọc,
+                                        41 tuổi)</b></p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques answer-question" id="box-4" style="display: none;" data-status="none">
+                                <p>Chào cô Ngọc. Trước tiên cô cần phải kiểm tra lại chế độ dinh dưỡng mà cô đã đặt ra
+                                    có đầy đủ chất đạm, chất xơ, chất béo hay không. Sau đó, để ngăn cảm giác thèm ăn
+                                    xuất hiện, cô có thể chia nhỏ bữa ăn của mình thành nhiều bữa nhỏ với thời gian giãn
+                                    cách ngắn hơn. Bên cạnh đó, sản phẩm sữa dành cho người đái tháo đường Glusure
+                                    Diabetes là một lựa chọn tuyệt vời nhất cho cô. Cô có thể dùng nó để thay thế các
+                                    bữa phụ để điều hòa chỉ số đường huyết và bổ sung dinh dưỡng cần thiết cho cơ thể.
+                                </p>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="box-banner-sidebar">
+                        <div class="banner-sidebar" data-toggle="modal" data-target="#modalLoginForm">
+                            <figure>
+                                <img src="img/product-sidebar.png" class="img-fluid" alt="Glusure">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="footer-about">
+                        <a href="">
+                            <img src="img/logo-footer.png" alt="Glusure" title="Glusure">
+                        </a>
+                        <div class="text-about">
+                            Phân phối độc quyền bởi<br>Công ty TNHH Soji Labs
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="footer-contact">
+                        <div class="title-footer-contact">
+                            Liên hệ
+                        </div>
+                        <div class="detail-footer-contact">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone-alt"><a href="tel:02873070789">02873070789</a></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"><a href="mailto:ecom@soji.asia">ecom@soji.asia</a></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-chrome"><a href="#">https://glusurediabetes.com/</a></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"><a href="#" class="disabled">199 Điện Biên Phủ,
+                                            P.15, Q.Bình
+                                            Thạnh</a></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="connect-me">
+                        <div class="title-footer-connect">Kết nối với chúng tôi</div>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank" title="Facebook"><img src="svg/icon_facebook.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Twitter"><img src="svg/icon_twitter.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Pinterest"><img src="svg/icon_pinterest.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Youtube"><img src="svg/icon_youtube.svg"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

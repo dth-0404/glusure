@@ -1,0 +1,548 @@
+@media(max-width:1536px)
+{
+    .content-header {
+        padding: 20px 70px;
+    }
+    .navbar-content ul li a
+    {
+        padding: 5px 48px;
+    }
+    .content {
+        position: relative;
+        padding: 200px 90px 0;
+    }
+    .banner-sidebar
+    {
+        width: 330px;
+    }
+    .img-expert img
+    {
+        width: 100%;
+    }
+    .box-form
+    {
+        padding: 27px 40px;
+    }
+    .left-price span
+    {
+        font-size: 20px;
+    }
+    .product-glass {
+        height: 360px;
+    }
+    .contact_form_title
+    {
+        font-size: 22px;
+    }
+    .contact_button
+    {
+        font-size: 16px;
+    }
+    .contact_content_text p
+    {
+        font-size: 16px;
+    }
+}
+@media(max-width:1440px)
+{
+    .content-header {
+        padding: 20px 50px;
+    }
+    .navbar-content ul li a {
+        padding: 5px 37px;
+    }
+    .content
+    {
+        padding: 200px 80px 0;
+    }
+    .name-expert
+    {
+        font-size: 16px;
+    }
+    .box-form form button
+    {
+        margin-top: 15px;
+    }
+    .banner-sidebar {
+        width: 320px;
+    }
+    .bonus-img img
+    {
+        height: 400px;
+    }
+}
+@media(max-width:1366px)
+{
+    .content-header {
+        padding: 20px 75px;
+    }
+    .banner-sidebar {
+        width: 270px;
+    }
+    .left-price span {
+        font-size: 19px;
+    }
+    .right-price span
+    {
+        font-size: 30px;
+    }
+    .box-form form {
+        margin-top: 15px;
+    }
+    .product-glass {
+        height: 340px;
+    }
+    .contact_form_title
+    {
+        width: 93%;
+    }
+    .contact_content_title
+    {
+        font-size: 25px;
+    }
+    .contact_info ul li a
+    {
+        font-size: 14px;
+    }
+}
+@media(max-width:1280px)
+{
+    .content-header {
+        padding: 20px 55px;
+    }
+    .navbar-content ul li a {
+        padding: 5px 28px;
+    }
+    .content
+    {
+        padding: 200px 70px 0;
+    }
+   
+    .box-form .title-form
+    {
+        font-size: 40px
+    }
+    .box-form form {
+        margin-top: 10px;
+    }
+    .box-form form button {
+        margin-top: 0px;
+    }
+    .left-price span {
+        font-size: 17px;
+    }
+    .bonus-img img
+    {
+        height: 300px;
+    }
+    .info-blog span, .info-blog ul li {
+        font-size: 13px;
+    }
+    .product-glass {
+        height: 310px;
+    }
+    .contact_input
+    {
+        height: 50px;
+    }
+    .contact_content {
+        padding: 20px 30px;
+    }
+}
+@media(max-width:1024px)
+{
+    .content-header {
+        padding: 20px 35px;
+    }
+    .content {
+        padding: 200px 55px 0;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .navbar-content ul li a {
+        padding: 5px 12px;
+    }
+    .banner-sidebar {
+        width: 220px;
+    }
+    .title-change
+    {
+        font-size: 18px;
+    }
+    .description-change
+    {
+        font-size: 17px;
+    }
+    .title-know
+    {
+        font-size: 18px;
+    }
+    .title-introduce
+    {
+        font-size: 18px;
+    }
+    .title-expert
+    {
+        font-size: 18px;
+    }
+    .text-expert
+    {
+        font-size: 16px;
+    }
+    .bonus-img img {
+        height: 250px;
+    }
+    .title-question
+    {
+        font-size: 18px;
+    }
+    .box-form .title-form {
+        font-size: 35px;
+    }
+    .left-price span {
+        font-size: 13px;
+    }
+    .right-price span {
+        font-size: 22px;
+    }
+    .title-blog-1
+    {
+        font-size: 18px;
+    }
+    .title-product
+    {
+        font-size: 18px;
+    }
+    .product-glass {
+        height: 260px;
+    }
+    .title-solution
+    {
+        font-size: 18px;
+    }
+    .title-use
+    {
+        font-size: 18px;
+    }
+    .title-breakfast-hungry
+    {
+        font-size: 17px;
+    }
+    .contact_button {
+        font-size: 14px;
+    }
+    .contact_content {
+        padding: 20px 10px;
+    }
+    .info-blog span.date
+    {
+        margin-left: 0;
+    }
+    .title-footer-contact
+    {
+        font-size: 18px;
+    }
+    .detail-footer-contact ul li a
+    {
+        font-size: 14px;
+    }
+    .title-footer-connect
+    {
+        font-size: 18px;
+    }
+    .connect-me ul img
+    {
+        width: 30px;
+    }
+    
+}
+@media(max-width:768px)
+{
+    .content-header {
+        padding: 20px 0px;
+    }
+    .navbar-bar {
+        display: block;
+        background-color: #C81C6F;
+    }
+    .navbar-bar i {
+        color: white;
+        font-size: 20px;
+        display: block;
+    }
+    
+    .navbar-content {
+        background-image: linear-gradient(90deg, #c81c6f 0%, #840a45 100%);
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 80%;
+        height: 100%;
+        z-index: 100;
+        padding: 66px 30px;
+    }
+    .navbar-close {
+        display: block;
+        position: absolute;
+        top: 29px;
+        right: 23px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .navbar-close i {
+        color: white;
+        font-size: 20px;
+    }
+    .navbar-content ul li {
+        margin-bottom: 23px;
+        display: block;
+    }
+    .navbar-content ul li a, .navbar-button .btn-danger {
+        font-size: 16px;
+        padding: 5px 0;
+        color: white;
+    }
+    .content {
+        padding: 200px 15px 0;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .menu-desktop
+    {
+        justify-content: flex-end;
+    }
+    .banner-sidebar {
+        width: 220px;
+    }
+    .see-more
+    {
+        width: 100%;
+        font-size: 16px;
+    }
+    .img-expert
+    {
+        position: relative;
+        text-align: center;
+    }
+    .img-expert img
+    {
+        width: 50%;
+    }
+    .bonus-img img {
+        height: 200px;
+    }
+    .left-price span {
+        font-size: 17px;
+    }
+    .product-glass {
+        height: 190px;
+    }
+    .title-breakfast-hungry {
+        font-size: 15px;
+    }
+    .button-post
+    {
+        font-size: 15px;
+    }
+    .box-modal-img
+    {
+        display: none;
+    }
+    .tablet-style {
+        display: block !important;
+        padding: 0 !important;
+    }
+    .modal-header {
+        border-bottom: 0;
+        text-align: center;
+    }
+}
+@media(max-width:576px)
+{
+    .logo-mobile,.content-header,.box-banner-sidebar,#bonus
+    {
+        display: none;
+    }
+    #logo-mobile
+    {
+        display: none !important;
+    }
+    .menu-desktop
+    {
+        justify-content: space-around !important;
+        
+    }
+    .menu-desktop .navbar
+    {
+        width: 100%;
+    }
+    .form-search
+    {
+        margin-top: 10px;
+    }
+    .content {
+        padding: 80px 0px 0;
+    }
+    .box-banner-sidebar
+    {
+        text-align: center;
+    }
+    .phone-mobile
+    {
+        margin-top: 0;
+    }
+    .phone-mobile .fa-phone-alt:before, .phone-mobile a
+    {
+        color: white;
+    }
+
+    .title-change {
+        font-size: 16px;
+        text-align: center;
+    }
+    .description-change {
+        font-size: 16px;
+    }
+    .title-know {
+        font-size: 16px;
+        text-align: center;
+    }
+    .see-more
+    {
+        width: 50%;
+        padding: 10px 0;
+    }
+    .img-expert
+    {
+        margin-top: 15px;
+    }
+    .frame-know
+    {
+        margin: 20px 0;
+    }
+    .title-introduce {
+        font-size: 16px;
+        text-align: center;
+    }
+    .title-expert {
+        font-size: 16px;
+        text-align: center;
+    }
+    .title-question {
+        font-size: 16px;
+        text-align: center;
+    }
+    .list-ques li
+    {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .list-ans li
+    {
+        padding: 0 !important;
+    }
+    .text-ques p
+    {
+        font-size: 15px;
+        margin-bottom: 0 !important;
+    }
+    .text-ques ul {
+        padding: 0px;
+    }
+    .left-price span {
+        font-size: 14px;
+    }
+    .banner-sidebar {
+        width: 100%;
+    }
+    .footer-contact
+    {
+        margin-top: 15px;
+    }
+    .detail-footer-contact,.connect-me ul
+    {
+        margin-top: 5px;
+    }
+    .two-img-product img
+    {
+        height: 100%;
+    }
+    .title-blog-1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .info-blog {
+        display: block !important;
+    }
+    .list-link
+    {
+        padding: 0;
+    }
+    .list-link li {
+        display: contents;
+    }
+    .title-product {
+        font-size: 16px;
+        text-align: center;
+    }
+    .product-glass
+    {
+        height: 100%;
+    }
+ 
+    .title-solution {
+        font-size: 16px;
+        text-align: center;
+    }
+    .title-use {
+        font-size: 16px;
+        text-align: center;
+    }
+    .breakfast-hungry
+    {
+        margin: 15px 0;
+    }
+    .note
+    {
+        padding: 0 15px;
+    }
+    
+    .footer-about img {
+        width: 30%;
+    }
+}
+@media(max-width:375px)
+{
+    .navbar-content ul li a, .navbar-button .btn-danger
+    {
+        font-size: 14px;
+    }
+    .list-ques li
+    {
+        padding: 10px 20px;
+    }
+    .box-form .title-form {
+        font-size: 30px;
+    }
+    .left-price span {
+        font-size: 12px;
+    }
+    .right-price span {
+        font-size: 20px;
+    }
+}
+@media(max-width:320px)
+{
+    .box-form .title-form {
+        font-size: 25px;
+    }
+    .right-price span {
+        font-size: 16px;
+    }
+    .js_submit
+    {
+        font-size: 15px;
+    }
+}

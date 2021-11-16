@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+        href="tel:02873070789">
+        <div id="calltrap-ico"></div>
+    </a>
+    <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+    <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content form-discount">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-img pr-0">
+                        <img src="img/banner-glusure-diabetes.jpg" class="img-modal" alt="khuyen-mai-glusure"
+                            title="Khuyến mãi Glusure">
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-form d-flex align-items-center pl-0 tablet-style">
+                        <form action="" method="post">
+                            <div class="modal-header">
+                                <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                                <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3 pt-4 pb-4">
+                                <div class="md-form mb-3 text-left">
+                                    <label>Họ tên</label>
+                                    <input type="text" name="name" class="form-control validate" autocomplete="off"
+                                        required>
+                                </div>
+                                <div class="md-form mb-3 text-left">
+                                    <label>Số điện thoại</label>
+                                    <input type="text" name="phone" class="form-control validate only_number"
+                                        autocomplete="off" required maxlength="10" onkeypress="validate(event)">
+                                    <center>
+                                        <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                            ngay</button>
+                                    </center>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row justify-content-center content-header">
+                <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="logo logo-mobile">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Glusure" title="Glusure">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="switchboard">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Tổng đài tư vấn:</span> <a href="tel:02873070789">028 7307 0789</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="form-search">
+                        <form action="" method="GET" role="form">
+                            <div class="style-input">
+                                <input class="search-ajax" type="text" placeholder="Nhập từ khóa tìm kiếm" required="">
+                            </div>
+                            <button type="submit" class="style-submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-desktop">
+                <div class="navbar d-flex align-items-center justify-content-between">
+                    <div class="logo d-block d-sm-block d-md-none">
+                        <a href="index.html">
+                            <img src="img/logo-footer.png" alt="Glusure" title="Glusure">
+                        </a>
+                    </div>
+                    <div class="switchboard d-block d-sm-block d-md-none phone-mobile">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:02873070789">028 7307 0789</a>
+                    </div>
+                    <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+
+                    <nav class="navbar-content">
+                        <div class="navbar-close"><i class="fas fa-times"></i></div>
+                        <ul>
+                            <li><a href="index.html">TRANG CHỦ</a></li>
+                            <li><a href="blog-1.html">ĐÁI THÁO ĐƯỜNG</a></li>
+                            <li><a href="blog-2.html">ĐÁI THÁO ĐƯỜNG THAI KỲ</a></li>
+                            <li><a href="product.html">GLUSURE DIABETES</a></li>
+                            <li><a href="question.html">CÂU HỎI</a></li>
+                            <li><a href="contact.html">LIÊN HỆ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-9 col-xl-9 blog-1">
+                    <div class="title-blog-1">
+                        <img src="img/bonus.png" id="bonus"> THÔNG TIN HỮU ÍT ĐÁI THÁO ĐƯỜNG THAI KỲ
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="post">
+                                <img src="img/post-1.png">
+                                <a href="detail-blog.html">
+                                    <div class="title-post">PHÂN BIỆT CÁC LOẠI TIỂU ĐƯỜNG VÀ ĐÁI THÁO ĐƯỜNG</div>
+                                </a>
+                                <div class="description-post">We value our craft, have a deep passion for progression,
+                                    and exist to solve challenges for brands we believe in. </div>
+                                <button class="button-post"><a href="detail-blog.html">XEM THÊM</a></button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="post">
+                                <img src="img/post-1.png">
+                                <a href="detail-blog.html">
+                                    <div class="title-post">PHÂN BIỆT CÁC LOẠI TIỂU ĐƯỜNG VÀ ĐÁI THÁO ĐƯỜNG</div>
+                                </a>
+                                <div class="description-post">We value our craft, have a deep passion for progression,
+                                    and exist to solve challenges for brands we believe in. </div>
+                                <button class="button-post"><a href="detail-blog.html">XEM THÊM</a></button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="post">
+                                <img src="img/post-1.png">
+                                <a href="detail-blog.html">
+                                    <div class="title-post">PHÂN BIỆT CÁC LOẠI TIỂU ĐƯỜNG VÀ ĐÁI THÁO ĐƯỜNG</div>
+                                </a>
+                                <div class="description-post">We value our craft, have a deep passion for progression,
+                                    and exist to solve challenges for brands we believe in. </div>
+                                <button class="button-post"><a href="detail-blog.html">XEM THÊM</a></button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="post">
+                                <img src="img/post-1.png">
+                                <a href="detail-blog.html">
+                                    <div class="title-post">PHÂN BIỆT CÁC LOẠI TIỂU ĐƯỜNG VÀ ĐÁI THÁO ĐƯỜNG</div>
+                                </a>
+                                <div class="description-post">We value our craft, have a deep passion for progression,
+                                    and exist to solve challenges for brands we believe in. </div>
+                                <button class="button-post"><a href="detail-blog.html">XEM THÊM</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-number-blog">
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li>…</li>
+                        <li class="next"><a href="#">></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-xl-3 sidebar-blog">
+                    <div class="box-banner-sidebar">
+                        <div class="banner-sidebar" data-toggle="modal" data-target="#modalLoginForm">
+                            <figure>
+                                <img src="img/product-sidebar.png" class="img-fluid" alt="Glusure">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="footer-about">
+                        <a href="">
+                            <img src="img/logo-footer.png" alt="Glusure" title="Glusure">
+                        </a>
+                        <div class="text-about">
+                            Phân phối độc quyền bởi<br>Công ty TNHH Soji Labs
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="footer-contact">
+                        <div class="title-footer-contact">
+                            Liên hệ
+                        </div>
+                        <div class="detail-footer-contact">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone-alt"><a href="tel:02873070789">02873070789</a></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"><a href="mailto:ecom@soji.asia">ecom@soji.asia</a></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-chrome"><a href="#">https://glusurediabetes.com/</a></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"><a href="#" class="disabled">199 Điện Biên Phủ,
+                                            P.15, Q.Bình
+                                            Thạnh</a></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="connect-me">
+                        <div class="title-footer-connect">Kết nối với chúng tôi</div>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank" title="Facebook"><img src="svg/icon_facebook.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Twitter"><img src="svg/icon_twitter.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Pinterest"><img src="svg/icon_pinterest.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Youtube"><img src="svg/icon_youtube.svg"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+        href="tel:02873070789">
+        <div id="calltrap-ico"></div>
+    </a>
+    <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+    <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content form-discount">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-img pr-0">
+                        <img src="img/banner-glusure-diabetes.jpg" class="img-modal" alt="khuyen-mai-glusure"
+                            title="Khuyến mãi Glusure">
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-form d-flex align-items-center pl-0 tablet-style">
+                        <form action="" method="post">
+                            <div class="modal-header">
+                                <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                                <button type="button" class="close mr-0" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-body mx-3 pt-4 pb-4">
+                                <div class="md-form mb-3 text-left">
+                                    <label>Họ tên</label>
+                                    <input type="text" name="name" class="form-control validate" autocomplete="off"
+                                        required>
+                                </div>
+                                <div class="md-form mb-3 text-left">
+                                    <label>Số điện thoại</label>
+                                    <input type="text" name="phone" class="form-control validate only_number"
+                                        autocomplete="off" required maxlength="10" onkeypress="validate(event)">
+                                    <center>
+                                        <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký
+                                            ngay</button>
+                                    </center>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="header">
+        <div class="container-fluid">
+            <div class="row justify-content-center content-header">
+                <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="logo logo-mobile">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Glusure" title="Glusure">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="switchboard">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Tổng đài tư vấn:</span> <a href="tel:02873070789">028 7307 0789</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="form-search">
+                        <form action="" method="GET" role="form">
+                            <div class="style-input">
+                                <input class="search-ajax" type="text" placeholder="Nhập từ khóa tìm kiếm" required="">
+                            </div>
+                            <button type="submit" class="style-submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-desktop">
+                <div class="navbar d-flex align-items-center justify-content-between">
+                    <div class="logo d-block d-sm-block d-md-none">
+                        <a href="index.html">
+                            <img src="img/logo-footer.png" alt="Glusure" title="Glusure">
+                        </a>
+                    </div>
+                    <div class="switchboard d-block d-sm-block d-md-none phone-mobile">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:02873070789">028 7307 0789</a>
+                    </div>
+                    <button class="navbar-bar"><i class="fas fa-bars"></i></button>
+
+                    <nav class="navbar-content">
+                        <div class="navbar-close"><i class="fas fa-times"></i></div>
+                        <ul>
+                            <li><a href="index.html">TRANG CHỦ</a></li>
+                            <li><a href="blog-1.html">ĐÁI THÁO ĐƯỜNG</a></li>
+                            <li><a href="blog-2.html">ĐÁI THÁO ĐƯỜNG THAI KỲ</a></li>
+                            <li><a href="product.html">GLUSURE DIABETES</a></li>
+                            <li><a href="question.html">CÂU HỎI</a></li>
+                            <li><a href="contact.html">LIÊN HỆ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-9 col-xl-9">
+                    <div class="img-banner" data-aos="fade-right" data-aos-duration="2000">
+                        <img src="img/banner.png">
+                    </div>
+                    <div class="change">
+                        <div class="title-change">
+                            <img src="img/bonus.png" id="bonus"> BỆNH ĐÁI THÁO ĐƯỜNG ĐÃ THAY ĐỔI CUỘC SỐNG
+                            NHƯ THẾ NÀO?
+                        </div>
+                        <div class="description-change">
+                            Theo số liệu thống kê, đái tháo đường chính là căn bệnh đã và đang đe dọa sức khỏe của hàng
+                            chục triệu người trên thế giới. Nó làm ảnh hưởng thậm chí là xáo trộn cuộc sống của con
+                            người. Đây là tiếng lòng của những ai không may mắc phải căn bệnh này.
+                            <br><br>
+                            Đái tháo đường làm cho chúng ta luôn trong tình trạng lo âu, trầm cảm vì sợ gặp biến chứng,
+                            tìm kiếm chế độ ăn kiêng phù hợp, chi phí điều trị, không có thuốc trị dứt điểm,... Lúc này,
+                            bệnh nhân sẽ không thể nào tận hưởng cuộc sống trọn vẹn: không được ăn uống thoải mái, mỗi
+                            ngày phải uống thuốc, gặp biến chứng ảnh hưởng đến sức khỏe,... Tất cả những điều này làm
+                            cho bạn căng thẳng và không thể lạc quan tận hưởng cuộc sống được trọn vẹn.
+                            <br><br>
+                            Tuy nhiên, một lời khuyên dành cho bạn để sống cùng với bệnh đó chính là chỉ cần chúng ta
+                            xác định và thực hiện theo đúng phương pháp ăn uống, tập luyện, sống khỏe và lạc quan, bạn
+                            đã giữ trong tay chìa khóa để kiểm soát căn bệnh đái tháo đường.
+                        </div>
+                    </div>
+                    <div class="you-know">
+                        <div class="title-know">
+                            <img src="img/bonus.png" id="bonus"> BẠN CÓ BIẾT?
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="frame-know" data-aos="zoom-in" data-aos-duration="1000">
+                                    <img src="img/know-1.png">
+                                    <div class="title-post">Cẩm nang sống khỏe</div>
+                                    <a href="#"><button class="see-more">Xem thêm</button></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="frame-know" data-aos="zoom-in" data-aos-duration="1500">
+                                    <img src="img/know-2.png">
+                                    <div class="title-post">Đái tháo đường thai kỳ</div>
+                                    <a href="#"><button class="see-more">Xem thêm</button></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="frame-know" data-aos="zoom-in" data-aos-duration="2000">
+                                    <img src="img/know-3.png">
+                                    <div class="title-post">Đái tháo đường </div>
+                                    <a href="#"><button class="see-more">Xem thêm</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="introduce">
+                        <div class="title-introduce">
+                            <img src="img/bonus.png" id="bonus"> GIỚI THIỆU GLUSURE DIABETES
+                        </div>
+                        <div class="img-introduce">
+                            <img src="img/introduce.png">
+                        </div>
+                    </div>
+                    <div class="expert">
+                        <div class="title-expert">
+                            <img src="img/bonus.png" id="bonus"> LỜI KHUYÊN TỪ CHUYÊN GIA
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-8 col-xl-8">
+                                <div class="text-expert">
+                                    Là một bác sĩ với hơn 30 năm kinh nghiệm nghiên cứu, chữa trị cho hàng nghìn bệnh
+                                    nhân bị đái tháo đường, tôi nhận thấy rằng: Hầu như các bệnh nhân luôn gặp phải tình
+                                    trạng căng thẳng vì phải thực hiện chế độ ăn kiêng khoa học, mỗi ngày phải uống
+                                    thuốc đều đặn, và đối mặt với nghìn nỗi sợ khác nhau.<br>
+                                    Hiểu được vấn đề này, tôi muốn giới thiệu đến bạn sản phẩm sữa dinh dưỡng giúp ổn
+                                    định đường huyết với tên gọi Glusure Diabetes. Đây là giải pháp chuyên biệt dành cho
+                                    người bị đái tháo đường nhằm thay thế bữa ăn phụ và cung cấp dưỡng chất cho cơ thể.
+                                    Bạn hoàn toàn có thể yên tâm vì sản phẩm này đã được chứng minh lâm sàng giúp ổn
+                                    định mức đường huyết. Tôi đã giới thiệu sản phẩm này cho nhiều bệnh nhân và tất
+                                    nhiên tất cả họ đều khỏe mạnh và kiểm soát tốt căn bệnh của mình. Tóm lại, đây là sự
+                                    lựa chọn hoàn hảo nhất dành cho bạn để sống vui khỏe cùng bệnh đái tháo đường.
+                                </div>
+                                <div class="name-expert d-block d-md-none d-lg-block" id="logo-mobile">
+                                    Bác sĩ Trần Đắc Minh, Phó trưởng Khoa Nội tổng hợp - Bệnh viện Đại học Y Hà Nội
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 col-xl-4">
+                                <div class="img-expert">
+                                    <img src="img/expert.png" alt="Chuyên gia" title="Chuyên gia">
+                                </div>
+                                <div class="name-expert d-md-block d-lg-none">
+                                    Bác sĩ Trần Đắc Minh, Phó trưởng Khoa Nội tổng hợp - Bệnh viện Đại học Y Hà Nội
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bonus-img">
+                            <div class="col-12 col-md-5 col-lg-5 col-xl-5">
+                                <div class="two-img-product" data-aos="fade-right" data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                                    <img src="img/product-1.png" alt="Glusure" title="Glusure">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-7 col-xl-7">
+                                <div class="two-img-product" data-aos="fade-left" data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                                    <img src="img/product-2.png" id="logo-mobile" alt="Glusure" title="Glusure">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="title-question">
+                            <img src="img/bonus.png" id="bonus"> CÂU HỎI THƯỜNG GẶP GLUSURE DIABETES
+                        </div>
+                        <ul class="list-ques" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000">
+                            <li data-ques="box-1">
+                                <span>#</span>
+                                <p class="m-0">Ai có thể dùng Glusure Diabetes</p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques" id="box-1" style="display: none;" data-status="none">
+                                <p>Glusure Diabetes dành cho những đối tượng sau đây:</p>
+                                <ul class="list-ans">
+                                    <li>- Người có tình trạng rối loạn chuyển hóa Lipid máu.</li>
+                                    <li>- Đã được chẩn đoán là rối loạn dung nạp glucose hoặc rối loạn đường huyết đói
+                                    </li>
+                                    <li>- Người bị đái tháo đường nhưng không ăn uống được</li>
+                                    <li>- Người già bị đái tháo đường muốn bổ sung dinh dưỡng</li>
+                                    <li>- Người từ 18 tuổi trở lên bị đái tháo đường</li>
+                                    <li>- Người đã được chẩn đoán đái tháo đường, tiền đái tháo đường</li>
+                                </ul>
+                            </div>
+                            <li data-ques="box-2">
+                                <span>#</span>
+                                <p class="m-0">Hướng dẫn sử dụng của Glusure Diabetes</p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques" id="box-2" style="display: none;" data-status="none">
+                                <p>Thực hiện theo từng bước sau:</p>
+                                <ul class="list-ans">
+                                    <li>- Rửa tay và các dụng cụ pha sữa thật kỹ bằng nước sạch</li>
+                                    <li>- Đun sôi nước và để nguội dần từ 40-50 độ C</li>
+                                    <li>- Rửa dụng cụ bằng nước sôi thật kỹ ngay trước khi sử dụng</li>
+                                    <li>- Đổ lượng nước theo chỉ định vào cốc</li>
+                                    <li>- Cứ mỗi 40ml nước cho vào 1 gói</li>
+                                    <li>- Khuấy hoặc lắc đều cho đến khi sữa bột tan hoàn toàn</li>
+                                    <li>- Thưởng thức ngay Glusure Diabetes</li>
+                                </ul>
+                            </div>
+                            <li data-ques="box-3">
+                                <span>#</span>
+                                <p class="m-0">Nguồn gốc của Glusure Diabetes từ đâu?</p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques" id="box-3" data-status="block">
+                                <p style="font-weight: 400;">Người dùng hoàn toàn có thể yên tâm khi dùng bởi vì sản
+                                    phẩm sữa dinh dưỡng Glusure Diabetes được kiểm nghiệm, nghiên cứu và sản xuất bằng
+                                    quy trình hiện đại tiên tiến đến từ Đức.
+                                </p>
+                            </div>
+                            <li data-ques="box-4">
+                                <span>#</span>
+                                <p class="m-0">Lưu ý gì khi dùng Glusure Diabetes?</p>
+                                <div class="icon-list-ques"><i class="fas fa-angle-right"></i></div>
+                            </li>
+                            <div class="text-ques" id="box-4" style="display: none;" data-status="none">
+                                <p>Ghi nhớ những lưu ý sau đây để dùng Glusure Diabetes:</p>
+                                <ul class="list-ans">
+                                    <li>- Không dùng cho người dưới 18 tuổi</li>
+                                    <li>- Chỉ dùng 1 lần, phần còn lại sau 1 giờ nên bỏ đi</li>
+                                    <li>- Không bảo quản sản phẩm trong tủ lạnh</li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="form-order">
+                        <div class="row">
+                            <div class="col-12 col-lg-7 col-xl-7">
+                                <div class="img-certificate d-block d-md-block d-lg-none mb-2">
+                                    <img src="img/certificate.png" alt="Giấy chứng nhận" title="Giấy chứng nhận">
+                                </div>
+                                <div class="box-form position-relative">
+                                    <div class="title-form">#Giảm giá 50%</div>
+                                    <div class="box-price">
+                                        <div class="left-price">
+                                            <span>1.580.000 VNĐ</span>
+                                            <span>Giá chỉ còn</span>
+                                        </div>
+                                        <div class="right-price">
+                                            <span>790.000 VNĐ</span>
+                                        </div>
+                                    </div>
+                                    <form class="formorder" action="" method="post">
+                                        <input type="text" name="name" autocomplete="off" required
+                                            placeholder="*Tên của bạn">
+                                        <input type="text" name="phone" autocomplete="off" required
+                                            placeholder="*Số điện thoại" maxlength="10" onkeypress="validate(event)">
+                                        <center>
+                                            <button type="submit" class="js_submit" id="formorder">ĐẶT HÀNG</button>
+                                        </center>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 col-xl-5 mt-2">
+                                <div class="img-certificate d-block d-md-none d-lg-block" id="logo-mobile">
+                                    <img src="img/certificate.png" alt="Giấy chứng nhận" title="Giấy chứng nhận">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="box-banner-sidebar">
+                        <div class="banner-sidebar" data-toggle="modal" data-target="#modalLoginForm">
+                            <figure>
+                                <img src="img/product-sidebar.png" class="img-fluid" alt="Glusure">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="footer-about">
+                        <a href="index.html">
+                            <img src="img/logo-footer.png" alt="Glusure" title="Glusure">
+                        </a>
+                        <div class="text-about">
+                            Phân phối độc quyền bởi<br>Công ty TNHH Soji Labs
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="footer-contact">
+                        <div class="title-footer-contact">
+                            Liên hệ
+                        </div>
+                        <div class="detail-footer-contact">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone-alt"><a href="tel:02873070789">02873070789</a></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"><a href="mailto:ecom@soji.asia">ecom@soji.asia</a></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-chrome"><a href="#">https://glusurediabetes.com/</a></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"><a href="#" class="disabled">199 Điện Biên Phủ,
+                                            P.15, Q.Bình
+                                            Thạnh</a></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="connect-me">
+                        <div class="title-footer-connect">Kết nối với chúng tôi</div>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank" title="Facebook"><img src="svg/icon_facebook.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Twitter"><img src="svg/icon_twitter.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Pinterest"><img src="svg/icon_pinterest.svg"></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" title="Youtube"><img src="svg/icon_youtube.svg"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
